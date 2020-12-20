@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color:#17a2b8;
+    --width-break: 500px;
+    /* --color: #DC2626; */
+    --color: #1F2937;
+}
+
+body {
+    margin: 0;
+    font-family: 'Rye',
+        cursive;
+    color: var(--color);
+    /* background-color: #ffdb00; */
+    text-align: center;
+}
+
+nav {
+    background-color: var(--primary-color);
+    text-align: center;
+    min-height: 10vh;
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 25vh;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    font-family: inherit;
+    font-size: large;
+    border-width: medium;
+    color: var(--color);
+}
+
+main {
+    max-width: var(--width-break);
+    margin: auto;
+    padding: 1rem;
+}
+
+#translate-output {
+    margin-top: 1rem;
+    background-color: white;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 15vh;
+    max-height: 15vh;
+    border: 1px solid black;
+    overflow: scroll;
+    text-align: justify;
+    border-width: medium;
+}
+
+.button-class {
+    width: 5rem;
+    min-width: max-content;
+    padding: 0.5rem;
+    margin: 1rem 0.2rem;
+    font-family: 'Rye',
+        cursive;
+    border-radius: 7px;
+    background-color: var(--primary-color);
+    border-width: thin;
+    font-weight: large;
+    font-size: large;
+    color: var(--color);
+    border-width: 0.1rem;
+    border-color: var(--color);
+}
+
+.button-class:hover {
+    background-color: var(--primary-color);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+footer p {
+    margin: auto;
+    max-width: var(--width-break);
+    font-size: large;
+    padding-top: 0.7rem;
+}
